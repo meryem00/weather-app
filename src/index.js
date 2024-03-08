@@ -57,7 +57,7 @@ function refreshWeather(response) {
   let searchFormElement = document.querySelector("#search-form");
   searchFormElement.addEventListener("submit", handleSearchSubmit);
   
-  searchCity("Paris");
+  searchCity("Addis Ababa");
 
   function formatDay(timestamp) {
     let date = new Date(timestamp * 1000);
